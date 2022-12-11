@@ -1,17 +1,45 @@
-header {
+nav {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 1.2em; 
-  padding: .5em;
+  margin-bottom: 1.2em;
+  padding: 0.5em 1.5em;
   border-bottom: 1px solid #575757;
+  background-color: #eee
 }
 
-.nav ul {
+.logo {
+  display: flex;
+  width: 110px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo:hover {
+  border: none;
+}
+
+.logo img {
+  width: 45%;
+}
+.logo h3 {
+  color: #575757;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   list-style-type: none;
   display: flex;
 }
 
-.nav li {
-  padding: .2em .8em;
+.links li {
+  padding: 0.2em 0.8em;
   font-size: 1.2em;
+}
+
+.avatar img {
+  width: 50px;
+  border: 2px solid #575757;
+  border-radius: 50%;
 }
