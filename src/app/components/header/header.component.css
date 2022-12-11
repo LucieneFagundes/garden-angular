@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.2em; 
+  padding: .5em;
+  border-bottom: 1px solid #575757;
+}
+
+.nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav li {
+  padding: .2em .8em;
+  font-size: 1.2em;
+}

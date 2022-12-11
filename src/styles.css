@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+a { 
+  text-decoration: none;
+  color: #327546;
+  font-weight: bold;
+}
+
+a:hover {
+  border-bottom: 1px solid #327546;
+}
